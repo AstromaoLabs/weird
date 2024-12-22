@@ -1,4 +1,4 @@
-# **Contributing to Sightseeing Map App**
+# **Contributing to Weird**
 
 Thank you for considering contributing to this project! Please follow these guidelines to ensure a smooth and productive workflow for everyone.
 
