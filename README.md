@@ -1,4 +1,4 @@
-# **Weird (Draft)**
+# **Weird**
 
 ## **Overview**
 Weird is a Python-based command-line tool designed to convert markdown and code files into static websites. The generated websites preserve the formatting of markdown while adding features like syntax highlighting, easy navigation, and downloadable code snippets. The goal is to provide a user-friendly, out-of-the-box solution that requires minimal setup as long as Python is installed, Weird tries to handle the rest.
@@ -8,6 +8,8 @@ With Weird, users can write markdown, run a single command, and have a functiona
 ---
 
 ## **Features**
+
+_As this project is still under early development, certain features may contain bugs or not be implemented._
 
 ### **Markdown Conversion**
 - Converts markdown files into HTML with proper formatting and styling.
@@ -44,20 +46,20 @@ With Weird, users can write markdown, run a single command, and have a functiona
 
 ### **Installation**  
 ```bash
-pip install weird # Not yet implemented
+pip install weird
 ```
 
 ### **Basic Usage**
 To convert a directory of markdown files into a website:
 ```bash
-python -m weird build <input-directory> <output-directory> # Not yet implemented
+python -m weird build <input-directory> <output-directory>
 ```
 
 ### **Configuration**
 To customize your website:
 1. Run the ``configure`` command.
    ```bash
-   python -m weird configure # Not yet implemented
+   python -m weird configure
    ```
 
    This will create the `weird_config.json` file in your current directory, with all configuration options set at their defaults.
